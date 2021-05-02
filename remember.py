@@ -16,7 +16,7 @@ def welcome(message):
     sti = open('images/sticker.webp', 'rb')
     bot.send_sticker(message.chat.id, sti)
 
-    bot.send_message(message.chat.id, "Welcome !, {0.first_name}!\n"
+    bot.send_message(message.chat.id, "Assalamualaikum !, {0.first_name}!\n"
                                       "I am <b>{1.first_name}</b>, the bot that will help you, "
                                       "so that you do not forget about important things, "
                                       "such as paying utility bills, electricity, water, loans."
